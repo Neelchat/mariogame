@@ -28,7 +28,44 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>
 
   </head>
-  <body>
+  <body background="background.jpg">
+    <center>
+      <div class="btn btn-primary heading">
+        <h3 >
+AI mario game
+        </h3>
+        <button data-target="#myModal" class="btn btn-primary"data-toggle="modal">instructions</button>
+        
+      </div>
+      <img src="mario.jpg" class="big_img">
+      <br> <br>
+  <button onclick="play()" class="btn btn-success" id="start">Play game </button>      
+ <br>
+ <br> 
+ <h3 class="btn btn-warning" id="status"></h3>
+ <br><br>
+ <div id="canvas">
+
+ 
+</div>   
+<div id="game_console"> </div>
+<h4>sourcecode:<a href="https://github.com/linuk"> Linuk </a>||Game Credit: Mario</h4>
+<div id="myModal" class="modal fade">
+  <div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header">
+   <button class="close" data-dismiss="modal"  >&times;</button>
+  <h4>Instructions</h4>  
+  </div>
+  <div class="modal-body">
+    <img src="jump.png" class="img-responsive instructions_img">
+    <img src="right.png" class="img-responsive instructions_img">
+    <img src="left.png" class="img-responsive instructions_img">
+  </div>
+  </div>
+  
+</div></div>
+</center>
 
   </body>
 </html>
